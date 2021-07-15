@@ -1,0 +1,10 @@
+C:\Users\chlam\source\repos\DemoDatabase\DemoDatabase\bin\Debug\DemoDatabase.dacpac
+C:\Users\chlam\source\repos\DemoDatabase\DemoDatabase\bin\Debug\DemoDatabase.dll
+C:\Users\chlam\source\repos\DemoDatabase\DemoDatabase\bin\Debug\DemoDatabase.pdb
+C:\Users\chlam\source\repos\DemoDatabase\DemoDatabase\obj\Debug\DemoDatabase.sqlprojAssemblyReference.cache
+C:\Users\chlam\source\repos\DemoDatabase\DemoDatabase\obj\Debug\DemoDatabase.dll
+C:\Users\chlam\source\repos\DemoDatabase\DemoDatabase\obj\Debug\DemoDatabase.pdb
+C:\Users\chlam\source\repos\DemoDatabase\DemoDatabase\obj\Debug\Model.xml
+C:\Users\chlam\source\repos\DemoDatabase\DemoDatabase\obj\Debug\refactor.xml
+C:\Users\chlam\source\repos\DemoDatabase\DemoDatabase\obj\Debug\postdeploy.sql
+C:\Users\chlam\source\repos\DemoDatabase\DemoDatabase\obj\Debug\predeploy.sql

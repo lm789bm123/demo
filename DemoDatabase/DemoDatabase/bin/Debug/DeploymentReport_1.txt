@@ -1,0 +1,28 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[udt_bet_financial] (User-Defined Table Type)
+       [dbo].[udt_match_info] (User-Defined Table Type)
+       [dbo].[udt_operation] (User-Defined Table Type)
+       [dbo].[udt_pools] (User-Defined Table Type)
+       [dbo].[bet_financial] (Table)
+       [dbo].[log_event] (Table)
+       [dbo].[match_info] (Table)
+       [dbo].[pools] (Table)
+       [dbo].[usp_bet_financial] (Procedure)
+       [dbo].[usp_log_event] (Procedure)
+       [dbo].[usp_match_create] (Procedure)
+       [dbo].[usp_pools] (Procedure)
+     Alter
+       [dbo].[checkpoint_id] (Sequence)
+
+** Supporting actions
