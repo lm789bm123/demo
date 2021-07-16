@@ -18,8 +18,8 @@
       <Query>
         <DataSourceName>DemoDataSource</DataSourceName>
         <QueryParameters>
-          <QueryParameter Name="@fronend_id">
-            <Value>=Parameters!fronend_id.Value</Value>
+          <QueryParameter Name="@bet_type">
+            <Value>=Parameters!bet_type.Value</Value>
           </QueryParameter>
         </QueryParameters>
         <CommandType>StoredProcedure</CommandType>
@@ -226,7 +226,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!profit_loss.Value</Value>
+                                  <Value>=Sum(Fields!profit_loss.Value)</Value>
                                   <Style>
                                     <Format>0.00</Format>
                                   </Style>
@@ -266,7 +266,12 @@
                   <KeepWithGroup>After</KeepWithGroup>
                 </TablixMember>
                 <TablixMember>
-                  <Group Name="Details" />
+                  <Group Name="Details">
+                    <GroupExpressions>
+                      <GroupExpression>=Fields!frontend_id.Value</GroupExpression>
+                      <GroupExpression>=Fields!pool_id.Value</GroupExpression>
+                    </GroupExpressions>
+                  </Group>
                 </TablixMember>
               </TablixMembers>
             </TablixRowHierarchy>
@@ -297,9 +302,9 @@
     </ReportSection>
   </ReportSections>
   <ReportParameters>
-    <ReportParameter Name="fronend_id">
-      <DataType>String</DataType>
-      <Prompt>fronend id</Prompt>
+    <ReportParameter Name="bet_type">
+      <DataType>Integer</DataType>
+      <Prompt>bet type</Prompt>
     </ReportParameter>
   </ReportParameters>
   <ReportParametersLayout>
@@ -310,7 +315,7 @@
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>0</RowIndex>
-          <ParameterName>fronend_id</ParameterName>
+          <ParameterName>bet_type</ParameterName>
         </CellDefinition>
       </CellDefinitions>
     </GridLayoutDefinition>

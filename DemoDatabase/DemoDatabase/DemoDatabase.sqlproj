@@ -61,7 +61,6 @@
     <Folder Include="Properties" />
     <Folder Include="table" />
     <Folder Include="usp_in" />
-    <Folder Include="usp_out" />
     <Folder Include="udt" />
     <Folder Include="report" />
   </ItemGroup>
